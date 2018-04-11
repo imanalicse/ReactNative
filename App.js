@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from 'react';
-import { Platform, StyleSheet,Text, View, FlatList, ActivityIndicator } from 'react-native';
+import { Platform, StyleSheet,Text, View, FlatList, ActivityIndicator, Button } from 'react-native';
 
 
 type Props = {};
@@ -36,6 +36,10 @@ export default class App extends Component<Props> {
       });
   }
 
+  onClickAction() {
+    alert("Click");
+  }
+
   render() {
 
     if(this.state.isLoading){
@@ -48,6 +52,7 @@ export default class App extends Component<Props> {
 
     return(
       <View style={{flex: 1, paddingTop:20}}>
+        <Button title="click" onPress={()=>this.onClickAction()} />
         <FlatList
           data={this.state.dataSource}
           renderItem={({item}) => <Text>{item.title}, {item.releaseYear}</Text>}
