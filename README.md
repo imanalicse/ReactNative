@@ -4,7 +4,7 @@ Get started
 
 1. Clone the project:
 
-git clone --recursive https://github.com/imanalicse/ReactNativeBasic.git
+git clone https://github.com/imanalicse/ReactNativeBasic.git
 
 2. Install node_modules
 
