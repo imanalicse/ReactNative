@@ -12,11 +12,11 @@ $ cd tibot-app-react.git
 ```
 3. Run following command for installing node_modules 
 ```sh
- npm install
+ $ npm install
 ```
 4. Please install react native command 
 ```sh
-npm install -g react-native-cli
+$ npm install -g react-native-cli
 ```
 5. if you do not have development envoroment ready please follow this step otherwise skip.
 
@@ -29,9 +29,9 @@ Then select your Development OS and follow respective steps to install dependenc
 
 6. For android run:
 ```sh
-react-native run-android
+$ react-native run-android
 ```
 For iOS run:
 ```sh
- react-native run-ios
+ $ react-native run-ios
  ```
