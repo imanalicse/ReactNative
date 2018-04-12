@@ -7,9 +7,9 @@
 git clone https://github.com/traindi/tibot-app-react.git
 
 2. Enter into project: 
-
-cd tibot-app-react.git
-
+```sh
+$ cd tibot-app-react.git
+```
 3. Run following command for installing node_modules 
 
  npm install
