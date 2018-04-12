@@ -2,7 +2,7 @@
 
 Get started
 
-1. Clone the project:
+## 1. Clone the project:
 
 git clone https://github.com/imanalicse/ReactNativeBasic.git
 
