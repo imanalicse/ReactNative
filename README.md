@@ -3,9 +3,9 @@
 ## Get started
 
 1. Clone the project:
-
-git clone https://github.com/traindi/tibot-app-react.git
-
+```sh
+$ git clone https://github.com/traindi/tibot-app-react.git
+```
 2. Enter into project: 
 ```sh
 $ cd tibot-app-react.git
