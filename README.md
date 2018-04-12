@@ -10,11 +10,11 @@ git clone https://github.com/traindi/tibot-app-react.git
 
 cd tibot-app-react.git
 
-3. Install node_modules 
+3. Run following command for installing node_modules 
 
  npm install
 
-4. Please install 
+4. Please install react native command 
 
 npm install -g react-native-cli
 
